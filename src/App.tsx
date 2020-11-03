@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import { configureRootTheme } from '@yandex/ui/Theme'
-import { theme } from '@yandex/ui/Theme/presets/default'
+import { theme } from './theme/theme';
 
 import { Spin } from '@yandex/ui/Spin/desktop/bundle';
 

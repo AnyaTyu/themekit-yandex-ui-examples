@@ -1,0 +1,20 @@
+{
+    "entry": {
+      "drive": "./src/theme/drive.theme.json"
+    },
+    "output": {
+      "css": {
+        "transforms": ["name/cti/kebab", "name/mapper"],
+        "buildPath": "./src/theme",
+        "files": [
+          {
+            "destination": "[entry]/root.css",
+            "format": "css/variables",
+            "options": {
+              "useAliasVariables": true
+            }
+          }
+        ]
+      }
+    }
+  }
