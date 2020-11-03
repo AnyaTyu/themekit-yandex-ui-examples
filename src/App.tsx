@@ -2,23 +2,17 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import { configureRootTheme } from '@yandex/ui/Theme'
+import { theme } from '@yandex/ui/Theme/presets/default'
+
+import { Spin } from '@yandex/ui/Spin/desktop/bundle';
+
+configureRootTheme({ theme })
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Spin progress size="m" view="default" ></Spin>
     </div>
   );
 }
