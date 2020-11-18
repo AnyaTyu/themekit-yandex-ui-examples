@@ -1,6 +1,7 @@
 {
     "entry": {
-      "drive": "./src/theme/drive.theme.json"
+      "drive": "./src/theme/drive.theme.json",
+      "cat": "./src/theme/cat.theme.json"
     },
     "output": {
       "css": {

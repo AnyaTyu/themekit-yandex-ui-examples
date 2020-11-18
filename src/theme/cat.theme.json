@@ -1,0 +1,4 @@
+{
+    "extends": "@yandex/ui/Theme/themes/inverse.theme.json",
+    "sources": ["./src/theme/tokens/lego-cat.tokens.yml"]
+  }

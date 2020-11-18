@@ -1,6 +1,6 @@
 import { Theme } from '@yandex/ui/Theme';
-import './drive/root.css';
+import './cat/root.css';
 
 export const theme: Theme = {
-    root: 'drive',
+    root: 'cat',
 } as Theme;
